@@ -1,0 +1,56 @@
+body {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+h4 {
+  font-family: "Gill Sans", sans-serif;
+}
+
+.btn {
+  text-transform: uppercase;
+}
+
+.btn-default {
+  background-color: #FFFFFF;
+  border: none;
+}
+
+.btn-group {
+  background-color: #FFFFFF;
+}
+
+.navbar {
+  background-color: #FFFFFF;
+  padding: 1em;
+  position: fixed;
+}
+
+.caret {
+  margin-left: 2em;
+  color: #999999;
+}
+
+.spacer {
+  margin: .5em;
+}
+
+h1 {
+  font-family: serif;
+  font-weight: bold;
+}
+
+.heading {
+  margin-left: 2em;
+}
+
+.sitesections {
+  margin-left: 1.1em;
+}
+
+.intro {
+  font-family: "Gill Sans";
+  font-size: 2em;
+}
