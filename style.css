@@ -54,3 +54,35 @@ h1 {
   font-family: "Gill Sans";
   font-size: 2em;
 }
+
+h2 {
+  font-family: "Kaushan Script";
+  font-weight: 400;
+}
+
+.blog {
+	margin: 10px 20px 10px 20px;
+  font-weight: lighter;
+  font-size: 2em;
+}
+
+.bottomblog {
+	border-radius: 50%;
+	height: 400px;
+	width: 700px;
+}
+
+h3 {
+  font-family: "Gill Sans";
+  font-weight: normal;
+  margin-left: 2em;
+}
+
+a:link {
+    color: black;
+}
+
+a:hover {
+    color: #555555;
+    text-decoration: none;
+}
