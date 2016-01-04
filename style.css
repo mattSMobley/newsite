@@ -10,12 +10,22 @@ h4 {
 
 .btn {
   text-transform: uppercase;
+  background-color: #FFFFFF;
 }
 
 .btn-default {
   background-color: #FFFFFF;
   border: none;
 }
+
+.dropdown-menu li:hover .sub-menu {
+    visibility: visible;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
 
 .btn-group {
   background-color: #FFFFFF;
@@ -49,11 +59,11 @@ h1 {
 }
 
 .heading {
-  margin-left: 2em;
+  margin-left: 1.2em;
 }
 
 .sitesections {
-  margin-left: 1.1em;
+  margin-left: .4em;
 }
 
 .intro {
@@ -91,6 +101,7 @@ h3 {
   font-weight: normal;
   margin: 1em 10em 0em 10em;
   color: rgba(0, 0, 0, 0.5);
+  text-align: center;
 }
 
 a:link {
@@ -100,4 +111,8 @@ a:link {
 a:hover {
     color: #555555;
     text-decoration: none;
+}
+
+p {
+    margin-left: 1.4em;
 }
