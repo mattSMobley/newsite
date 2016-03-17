@@ -18,6 +18,18 @@ angular.module("app")
       })
       .when('/budgettraveleurope', {
         templateUrl: 'views/budgettraveleurope.html'
+      })
+      .when('/europe', {
+        templateUrl: 'views/europe.html'
+      })
+      .when('/usa', {
+        templateUrl: 'views/usa.html'
+      })
+      .when('/cruising', {
+        templateUrl: 'views/cruising.html'
+      })
+      .when('/helpfulmaps', {
+        templateUrl: 'views/helpfulmaps.html'
       });
 
   });

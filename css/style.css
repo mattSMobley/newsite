@@ -8,6 +8,7 @@ body {
     ),
     url('../img/symphony.png');
     /*url('../img/subtle_white_feathers.png');*/
+    overflow: hidden;
 }
 
 
