@@ -1,12 +1,13 @@
 body {
   padding-top: 2em;
   padding-bottom: 2em;
-  /*background:
+  background:
     linear-gradient(
-      rgba(255, 255, 255, 0.9),
-      rgba(255, 255, 255, 0.9)
+      rgba(255, 255, 255, .7),
+      rgba(255, 255, 255, .7)
     ),
-    url('grey_wash_wall.png');*/
+    url('../img/symphony.png');
+    /*url('../img/subtle_white_feathers.png');*/
 }
 
 
@@ -16,12 +17,35 @@ h4 {
 
 .btn {
   text-transform: uppercase;
-  background-color: #FFFFFF;
+  background-color: rgba(255, 255, 255, 0);;
+  padding-left: 0em;
 }
 
-.btn-default {
-  background-color: #FFFFFF;
+.btn-default{
+  background-color: rgba(255, 255, 255, 0);;
   border: none;
+}
+.btn-default:hover {
+  color: #777777;
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  shadow: none;
+}
+.btn .btn-default .dropdown-toggle{
+  background-color: rgba(255, 255, 255, 0);
+
+}
+.btn-group {
+  background-color: rgba(255, 255, 255, 0);
+}
+.open {
+  background-color: rgba(255, 255, 255, 0);
+}
+ul {
+  background-color: rgba(255, 255, 255, 0);
+}
+.dropdown-toggle {
+  background-color: rgba(255, 255, 255, 0);
 }
 .dropdown-menu ul {
   display: none;
@@ -31,22 +55,17 @@ h4 {
 }
 
 .btn-group {
-  background-color: #FFFFFF;
-}
-
-.navbar {
-  background-color: #FFFFFF;
-  padding: 1em;
-  position: fixed;
+  background-color: rgba(255, 255, 255, 0);;
 }
 
 .caret {
-  margin-left: 2em;
   color: #999999;
+  margin-right: 2em;
+
 }
 
 .spacer {
-  margin: .5em;
+  padding: 1em;
 }
 
 h1 {
@@ -55,23 +74,22 @@ h1 {
 }
 
 .summary {
-  font-weight: bold;
-  font-size: 1.4em;
-  margin: 0em 10em 0em 10em;
+  font-family: "Gill Sans";
   color: rgba(0, 0, 0, 0.5);
+  line-height: 1.5;
+  padding-bottom: 3em;
 }
 
-.heading {
-  margin-left: 1.2em;
-}
 
-.sitesections {
+
+/*.sitesections {
   margin-left: .4em;
-}
+}*/
 
 .intro {
   font-family: "Gill Sans";
   font-size: 2em;
+  margin-top: 1em;
 }
 
 h2 {
@@ -80,29 +98,45 @@ h2 {
 }
 
 .blog {
-	margin: 1em 3em 1em 3em;
   font-weight: lighter;
   font-size: 2em;
 }
 
 .bottomblog {
 	border-radius: 50%;
-	height: 12em;
-	width: 21em;
+	height: 20em;
+	width: 45%;
+  margin-top: 5em;
+  margin-bottom: 2em;
 }
 
 .blog-img {
   width: 100%;
-  height: 20em;
+  height: 25em;
   display: block;
   margin-left: collapse;
   margin-right: collapse;
+}
+.row {
+  margin-left: 0em;
+  margin-right: 0em;
+  padding-left: 0em;
+  padding-right: 0em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+  margin-bottom: 0em;
+  margin-top: 0em;
+}
+.captions {
+    margin-bottom: 4em;
+    padding-left: 6em;
+    padding-right: 6em;
 }
 
 h3 {
   font-family: "Gill Sans";
   font-weight: normal;
-  margin: 1em 10em 0em 10em;
+  /*margin: 1em 10em 0em 10em;*/
   color: rgba(0, 0, 0, 0.5);
   text-align: left;
 }
@@ -112,10 +146,32 @@ a:link {
 }
 
 a:hover {
-    color: #555555;
+    color: #777777;
     text-decoration: none;
 }
 
 p {
-    margin-left: 1.4em;
+    /*margin-left: 1.4em;*/
+}
+
+.mainNav {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  /*background-color: white;*/
+  background:
+    linear-gradient(
+      rgba(255, 255, 255, .7),
+      rgba(255, 255, 255, .7)
+    ),
+    url('../img/symphony.png');
+    /*url('../img/subtle_white_feathers.png');*/
+    /*url('../img/norwegian_rose.png');*/
+  height: 15vh;
+}
+
+.partialContainer {
+  padding-top: 7%;
 }

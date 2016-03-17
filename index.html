@@ -10,7 +10,8 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="./css/style.css">
-  <link href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAIIjAAA2DgCMYRYAYz8AAABUFwDHnFIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACIiVQAAAABENVURMwAABDM1URZmMABDMzMRFmZjAEMzM2ZmEWUEM1VRYWEREVQzNVFhERERVDVTFhERERFUNTMWEREREVQzNRZmYRERVDMzZhYRERFQQzNmEREWYwBDM2ZhERFjAAQzZmEWZjAAAEQ2ZmYzAAAAAEQzMwAAD4HwAA4AcAAMADAACAAQAAgAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIABAACAAQAAwAMAAOAHAAD4HwAA" rel="icon" type="image/x-icon" />
+  <link href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAIIjAAA2DgCMYRYAYz8AAABUFwDHnFIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACIiVQAAAABENVURMwAABDM1URZmMABDMzMRFmZjAEMzM2ZmEWUEM1VRYWEREVQzNVFhERERVDVTFhERERFUNTMWEREREVQzNRZmYRERVDMzZhYRERFQQzNmEREWYwBDM2ZhERFjAAQzZmEWZjAAAEQ2ZmYzAAAAAEQzMwAAD4HwAA4AcAAMADAACAAQAAgAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIABAACAAQAAwAMAAOAHAAD4HwAA"
+    rel="icon" type="image/x-icon" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
@@ -19,16 +20,25 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-fixed-top">
-    <div class="container">
-      <div class="row heading">
-        <a href="index.html" class="homebutton"><h1>ROOTLESS</h1></a>
-      </div>
-      <div class="row sitesections">
-        <!-- Single button -->
+  <!-- <div class="row"> -->
+    <div class="col-md-1">
+    </div>
+    <div class="col-md-10">
+      <div class="mainNav">
+        <div class="col-md-10 col-md-offset-1">
+
+        <div class="row">
+          <a href="#/" class="homebutton">
+            <h1>ROOTLESS</h1>
+          </a>
+        </div>
+        <div class="row sitesections">
+          <!-- Single button -->
           <div class="btn-group">
             <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            My Travels <span class="spacer"></span><span class="caret"></span>
+              My Travels
+              <span class="spacer"></span>
+              <span class="caret"></span>
             </button>
             <ul class="dropdown-menu">
               <li><a href='#/'>Europe</a></li>
@@ -40,7 +50,9 @@
           </div>
           <div class="btn-group">
             <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Topics <span class="spacer"></span><span class="caret"></span>
+              Topics
+              <span class="spacer"></span>
+              <span class="caret"></span>
             </button>
             <ul class="dropdown-menu">
               <li><a href="#/budgettraveleurope">Budget Traveling Europe</a></li>
@@ -48,7 +60,9 @@
           </div>
           <div class="btn-group">
             <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Apps and Maps <span class="spacer"></span><span class="caret"></span>
+              Apps and Maps
+              <span class="spacer"></span>
+              <span class="caret"></span>
             </button>
             <ul class="dropdown-menu">
               <li><a href="https://traveldestinationeng.firebaseapp.com">Trip Suggestions App</a></li>
@@ -57,24 +71,42 @@
           </div>
           <div class="btn-group">
             <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Blog <span class="spacer"></span><span class="caret"></span>
+              Blog
+              <span class="spacer"></span>
+              <span class="caret"></span>
             </button>
             <ul class="dropdown-menu">
-              <li><a href="#/">Galvanize</a></li>
+              <!-- <li><a href="#/">Galvanize</a></li> -->
               <li><a href="#/">My Travels</a></li>
             </ul>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-</nav>
 
-  <!--/.navbar -->
+      </div>
+    </div>
+    <div class="col-md-1">
+    </div>
+
+  <!-- </div> -->
+
+
+
 
 
   <div ng-view>
   </div>
+
+
+
+
+
+
+
+  <!--/.navbar -->
+
+
+
 
   <script src="./js/app.js"></script>
   <script src="./js/controllers.js"></script>
