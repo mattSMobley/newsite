@@ -30,6 +30,9 @@ angular.module("app")
       })
       .when('/helpfulmaps', {
         templateUrl: 'views/helpfulmaps.html'
+      })
+      .when('/blog', {
+        templateUrl: 'views/blog.html'
       });
 
   });
