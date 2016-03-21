@@ -33,6 +33,15 @@ angular.module("app")
       })
       .when('/blog', {
         templateUrl: 'views/blog.html'
+      })
+      .when('/spain', {
+        templateUrl: 'views/spain.html'
+      })
+      .when('/valencia', {
+        templateUrl: 'views/valencia.html'
+      })
+      .when('/catalonia', {
+        templateUrl: 'views/catalonia.html'
       });
 
   });
