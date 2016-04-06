@@ -42,6 +42,15 @@ angular.module("app")
       })
       .when('/catalonia', {
         templateUrl: 'views/catalonia.html'
+      })
+      .when('/france', {
+        templateUrl: 'views/france.html'
+      })
+      .when('/marseille', {
+        templateUrl: 'views/marseille.html'
+      })
+      .when('/montpellier', {
+        templateUrl: 'views/montpellier.html'
       });
 
   });
