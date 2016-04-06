@@ -104,8 +104,8 @@ h2 {
 
 .bottomblog {
 	border-radius: 50%;
-	height: 20em;
-	width: 45%;
+	height: 15em;
+	width: 25em;
   margin-top: 5em;
   margin-bottom: 2em;
 }
@@ -170,7 +170,7 @@ p {
     url('../img/symphony.png');
     /*url('../img/subtle_white_feathers.png');*/
     /*url('../img/norwegian_rose.png');*/
-  height: 15vh;
+  padding-bottom: 1em;
 }
 
 .partialContainer {
