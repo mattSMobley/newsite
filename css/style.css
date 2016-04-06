@@ -90,6 +90,7 @@ h1 {
   font-family: "Gill Sans";
   font-size: 2em;
   margin-top: 1em;
+  text-align: justify;
 }
 
 h2 {
@@ -139,7 +140,7 @@ h3 {
   font-weight: normal;
   /*margin: 1em 10em 0em 10em;*/
   color: rgba(0, 0, 0, 0.5);
-  text-align: left;
+  text-align: justify;
 }
 
 a:link {
@@ -171,6 +172,18 @@ p {
     /*url('../img/subtle_white_feathers.png');*/
     /*url('../img/norwegian_rose.png');*/
   padding-bottom: 1em;
+}
+@media (max-width: 600px){
+  .mainNav {
+    text-align: center;
+  }
+}
+
+@media (max-width: 600px){
+  .mainNav .btn-default {
+    text-align: center;
+    padding-left: 2em;
+  }
 }
 
 .partialContainer {
