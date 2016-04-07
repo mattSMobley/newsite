@@ -7,14 +7,14 @@ angular.module("app")
       .when('/faves', {
         templateUrl: 'views/faves.html'
       })
-      .when('/croatia', {
-        templateUrl: 'views/croatia.html'
+      .when('/faves/croatia', {
+        templateUrl: 'views/faves/croatia.html'
       })
-      .when('/sintra', {
-        templateUrl: 'views/sintra.html'
+      .when('/faves/sintra', {
+        templateUrl: 'views/faves/sintra.html'
       })
-      .when('/cinqueterre', {
-        templateUrl: 'views/cinqueterre.html'
+      .when('/faves/cinqueterre', {
+        templateUrl: 'views/faves/cinqueterre.html'
       })
       .when('/budgettraveleurope', {
         templateUrl: 'views/budgettraveleurope.html'
@@ -37,20 +37,38 @@ angular.module("app")
       .when('/spain', {
         templateUrl: 'views/spain.html'
       })
-      .when('/valencia', {
-        templateUrl: 'views/valencia.html'
+      .when('/spain/valencia', {
+        templateUrl: 'views/spain/valencia.html'
       })
-      .when('/catalonia', {
-        templateUrl: 'views/catalonia.html'
+      .when('/spain/catalonia', {
+        templateUrl: 'views/spain/catalonia.html'
       })
       .when('/france', {
         templateUrl: 'views/france.html'
       })
-      .when('/marseille', {
-        templateUrl: 'views/marseille.html'
+      .when('/southernFrance/marseille', {
+        templateUrl: 'views/southernFrance/marseille.html'
       })
-      .when('/montpellier', {
-        templateUrl: 'views/montpellier.html'
+      .when('/southernFrance/montpellier', {
+        templateUrl: 'views/southernFrance/montpellier.html'
+      })
+      .when('/portugal', {
+        templateUrl: 'views/portugal.html'
+      })
+      .when('/portugal/porto', {
+        templateUrl: 'views/portugal/porto.html'
+      })
+      .when('/portugal/cascaisSintra', {
+        templateUrl: 'views/portugal/cascaisSintra.html'
+      })
+      .when('/belgium', {
+        templateUrl: 'views/belgium.html'
+      })
+      .when('/belgium/bruges', {
+        templateUrl: 'views/belgium/bruges.html'
+      })
+      .when('/belgium/brussels', {
+        templateUrl: 'views/belgium/brussels.html'
       });
 
   });
