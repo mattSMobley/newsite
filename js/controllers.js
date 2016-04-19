@@ -3,6 +3,5 @@ angular.module("app")
 
   function MainController (){
     var vm = this;
-
-    vm.title = "Angular Template"
+  
   }

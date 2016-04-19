@@ -37,19 +37,22 @@ angular.module("app")
       .when('/spain', {
         templateUrl: 'views/spain.html'
       })
-      .when('/spain/valencia', {
+      .when('/valencia', {
         templateUrl: 'views/spain/valencia.html'
       })
-      .when('/spain/catalonia', {
+      .when('/palma', {
+        templateUrl: 'views/spain/palma.html'
+      })
+      .when('/catalonia', {
         templateUrl: 'views/spain/catalonia.html'
       })
       .when('/france', {
         templateUrl: 'views/france.html'
       })
-      .when('/southernFrance/marseille', {
+      .when('/france/marseille', {
         templateUrl: 'views/southernFrance/marseille.html'
       })
-      .when('/southernFrance/montpellier', {
+      .when('/france/montpellier', {
         templateUrl: 'views/southernFrance/montpellier.html'
       })
       .when('/portugal', {
