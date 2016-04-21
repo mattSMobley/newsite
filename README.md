@@ -1,7 +1,7 @@
 #Rootless.ninja
 
-###Author: Matt Mobley
-###Pictures: Property of Matt Mobley
+####Author: Matt Mobley
+####Photos: Matt Mobley
 
 Travel Website focusing on travel insight, budget travel tips, and inspiring photos of my travels.
 
