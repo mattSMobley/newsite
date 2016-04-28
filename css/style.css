@@ -1,3 +1,4 @@
+/* GENERAL */
 body {
   padding-top: 2em;
   padding-bottom: 2em;
@@ -9,103 +10,12 @@ body {
     url('../img/symphony.png');
     /*url('../img/subtle_white_feathers.png');*/
 }
-.homebutton {
-  padding: none;
-}
-
-h4 {
-  font-family: "Gill Sans", sans-serif;
-}
-
-.btn {
-  text-transform: uppercase;
-  background-color: rgba(255, 255, 255, 0);;
-  padding-left: 0em;
-}
-
-.btn-default{
-  background-color: rgba(255, 255, 255, 0);;
-  border: none;
-}
-.btn-default:hover {
-  color: #777777;
-  background-color: rgba(255, 255, 255, 0);
-  border: none;
-  shadow: none;
-}
-.btn .btn-default .dropdown-toggle{
-  background-color: rgba(255, 255, 255, 0);
-
-}
-.btn-group {
-  background-color: rgba(255, 255, 255, 0);
-}
 .open {
   background-color: rgba(255, 255, 255, 0);
 }
-ul {
-  background-color: rgba(255, 255, 255, 0);
-}
-.dropdown-toggle {
-  background-color: rgba(255, 255, 255, 0);
-}
-.dropdown-menu ul {
-  display: none;
-}
-.dropdown-menu ul:hover {
-  display: block;
-}
-
-.btn-group {
-  background-color: rgba(255, 255, 255, 0);;
-}
-
-.caret {
-  color: #999999;
-  margin-right: 3em;
-
-}
-
-
 .spacer {
   padding: .75em;
 }
-
-h1 {
-  font-family: serif;
-  font-weight: bold;
-}
-
-.summary {
-  font-family: "Gill Sans";
-  color: rgba(0, 0, 0, 0.5);
-  line-height: 1.5;
-  padding-bottom: 3em;
-}
-
-
-
-/*.sitesections {
-  margin-left: .4em;
-}*/
-
-.intro {
-  font-family: "Gill Sans";
-  font-size: 2em;
-  margin-top: 1em;
-  text-align: justify;
-}
-
-h2 {
-  font-family: "Kaushan Script";
-  font-weight: 400;
-}
-
-.blog {
-  font-weight: lighter;
-  font-size: 2em;
-}
-
 .bottomblog {
 	border-radius: 50%;
 	height: 15em;
@@ -113,7 +23,6 @@ h2 {
   margin-top: 5em;
   margin-bottom: 2em;
 }
-
 .blog-img {
   width: 100%;
   height: 25em;
@@ -131,6 +40,46 @@ h2 {
   margin-bottom: 0em;
   margin-top: 0em;
 }
+.partialContainer {
+  padding-top: 7%;
+  padding-bottom: 7%;
+}
+
+
+/* TEXT SIZES */
+h1 {
+  font-family: serif;
+  font-weight: bold;
+}
+h2 {
+  font-family: "Kaushan Script";
+  font-weight: 400;
+}
+h3 {
+  font-family: "Gill Sans";
+  font-weight: normal;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: justify;
+}
+h4 {
+  font-family: "Gill Sans", sans-serif;
+}
+.summary {
+  font-family: "Gill Sans";
+  color: rgba(0, 0, 0, 0.5);
+  line-height: 1.5;
+  padding-bottom: 3em;
+}
+.intro {
+  font-family: "Gill Sans";
+  font-size: 2em;
+  margin-top: 1em;
+  text-align: justify;
+}
+.blog {
+  font-weight: lighter;
+  font-size: 2em;
+}
 .captions {
     margin-bottom: 4em;
     padding-left: 6em;
@@ -138,29 +87,12 @@ h2 {
     text-align: center;
 }
 
-h3 {
-  font-family: "Gill Sans";
-  font-weight: normal;
-  /*margin: 1em 10em 0em 10em;*/
-  color: rgba(0, 0, 0, 0.5);
-  text-align: justify;
-}
 
-a:link {
-    color: black;
-}
-
-a:hover {
-    color: #777777;
-    text-decoration: none;
-}
-
+/* NAVBAR */
 #mainPic {
   height: 36em;
   width: 100%;
 }
-
-
 #mainNav {
   width: 100%;
   position: fixed;
@@ -178,25 +110,64 @@ a:hover {
     /*url('../img/norwegian_rose.png');*/
   padding-bottom: 1em;
 }
-
-#mobileNav {
-  display: none;
-  width: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 9999;
-  /*background-color: white;*/
-  background:
-    linear-gradient(
-      rgba(255, 255, 255, .2),
-      rgba(255, 255, 255, .2)
-    ),
-    url('../img/symphony.png');
-    /*url('../img/subtle_white_feathers.png');*/
-    /*url('../img/norwegian_rose.png');*/
-  padding-bottom: 1em;
+ul {
+  background-color: rgba(255, 255, 255, 0);
 }
+.dropdown-toggle {
+  background-color: rgba(255, 255, 255, 0);
+}
+.dropdown-menu ul {
+  display: none;
+}
+.dropdown-menu ul:hover {
+  display: block;
+}
+.caret {
+  color: #999999;
+  margin-right: 3em;
+}
+
+
+/* BUTTONS AND LINKS */
+.btn {
+  text-transform: uppercase;
+  background-color: rgba(255, 255, 255, 0);;
+  padding-left: 0em;
+}
+.btn-default{
+  background-color: rgba(255, 255, 255, 0);;
+  border: none;
+}
+.btn-default:hover {
+  color: #777777;
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  shadow: none;
+}
+.btn .btn-default .dropdown-toggle{
+  background-color: rgba(255, 255, 255, 0);
+}
+.btn-group {
+  background-color: rgba(255, 255, 255, 0);
+}
+.homebutton {
+  padding: none;
+}
+a:link {
+    color: black;
+}
+
+a:hover {
+    color: #777777;
+    text-decoration: none;
+}
+.inactive {
+  margin-left: 1.5em;
+  color: #BDBDBD
+}
+
+
+/* MEDIA QUERIES */
 @media (max-width: 900px){
   #mainPic {
     height: 28em;
@@ -216,35 +187,14 @@ a:hover {
   #mainPic {
     height: 20em;
   }
-
 }
 
 @media (max-width: 500px) {
   .caret {
     padding: 0em;
-    margin-right: .6em;
+    margin-right: 1.2em;
   }
   .spacer {
     padding: .2em;
   }
-}
-
-
-.hamburger {
-  width: 2em;
-  height: 2em;
-  position: absolute;
-  top: 1.8em;
-  right: 1.2em;
-}
-/*.hamburger:hover {
-  box-shadow: -2px -2px 10px #666666;
-}*/
-
-.homebutton {
-}
-
-.partialContainer {
-  padding-top: 7%;
-  padding-bottom: 7%;
 }
