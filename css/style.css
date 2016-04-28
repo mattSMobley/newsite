@@ -222,10 +222,10 @@ a:hover {
 @media (max-width: 500px) {
   .caret {
     padding: 0em;
-    margin-right: .9em;
+    margin-right: .6em;
   }
   .spacer {
-    padding: .5em;
+    padding: .4em;
   }
 }
 
