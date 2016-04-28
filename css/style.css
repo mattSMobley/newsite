@@ -9,7 +9,9 @@ body {
     url('../img/symphony.png');
     /*url('../img/subtle_white_feathers.png');*/
 }
-
+.homebutton {
+  padding: none;
+}
 
 h4 {
   font-family: "Gill Sans", sans-serif;
@@ -60,12 +62,13 @@ ul {
 
 .caret {
   color: #999999;
-  margin-right: 2em;
+  margin-right: 3em;
 
 }
 
+
 .spacer {
-  padding: 1em;
+  padding: .7em;
 }
 
 h1 {
@@ -156,11 +159,7 @@ a:hover {
   height: 36em;
   width: 100%;
 }
-@media (max-width: 900px){
-  #mainPic {
-    height: 28em;
-  }
-}
+
 
 #mainNav {
   width: 100%;
@@ -181,7 +180,7 @@ a:hover {
 }
 
 #mobileNav {
-  /*display: none;*/
+  display: none;
   width: 100%;
   position: fixed;
   top: 0;
@@ -198,12 +197,48 @@ a:hover {
     /*url('../img/norwegian_rose.png');*/
   padding-bottom: 1em;
 }
+@media (max-width: 900px){
+  #mainPic {
+    height: 28em;
+  }
+  .caret {
+    margin-right: 2em;
+  }
+}
 
-#mobileButton {
+@media (max-width: 700px) {
+  .sitesections {
+    padding: 0em;
+  }
+  #menuButton {
+    padding: 0em;
+  }
+  #mainPic {
+    height: 20em;
+  }
+
+}
+
+@media (max-width: 500px) {
+  .caret {
+    padding: 0em;
+    margin-right: .7em;
+  }
+}
+
+
+.hamburger {
   width: 2em;
   height: 2em;
-  float: right;
-  display: inline;
+  position: absolute;
+  top: 1.8em;
+  right: 1.2em;
+}
+/*.hamburger:hover {
+  box-shadow: -2px -2px 10px #666666;
+}*/
+
+.homebutton {
 }
 
 .partialContainer {

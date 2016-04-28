@@ -14,6 +14,8 @@
     rel="icon" type="image/x-icon" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="SlickNav/slicknav.css" />
+  <script src="SlickNav/jquery.slicknav.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular-route.js"></script>
 
@@ -24,8 +26,8 @@
   <div class="col-md-1">
   </div>
   <!-- DESKTOP MENU -->
-  <div class="col-md-10">
-    <nav id="mainNav">
+   <div class="col-md-10">
+   <nav id="mainNav">
       <div class="col-md-10 col-md-offset-1">
         <div class="row">
           <a href="#/" class="homebutton">
@@ -33,6 +35,93 @@
           </a>
         </div>
         <div class="row sitesections">
+          <div class="btn-group">
+            <button type="button" id="menuButton" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Adventures
+              <span class="spacer"></span>
+              <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+              <li><a href="#/europe">Europe</a></li>
+              <li><i style="margin-left: 1.5em; color: #BDBDBD">U.S.A.</i></li>
+              <li><i style="margin-left: 1.5em; color: #BDBDBD">Cruising</i></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#/faves">Favorites</a></li>
+            </ul>
+          </div>
+          <div class="btn-group">
+            <button type="button" id="menuButton" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Advice
+              <span class="spacer"></span>
+              <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+              <li><a href="#/budgettraveleurope">Budget Traveling Europe</a></li>
+            </ul>
+          </div>
+          <div class="btn-group">
+            <button type="button" id="menuButton" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Apps
+              <span class="spacer"></span>
+              <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+              <li><a href="http://travelsuggestions.xyz">Trip Suggestions App</a></li>
+              <li><a href="http://tripstart.site">City Info App</a></li>
+            </ul>
+          </div>
+          <div class="btn-group">
+            <button type="button" id="menuButton" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Blogs
+              <span class="spacer"></span>
+              <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+              <li><a href="http://www.travelpod.com/travel-blog/matterri/1/tpod.html">Eurotrip 2014</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- END DESKTOP MENU -->
+
+    <!-- MOBILE MENU -->
+    <!-- <nav id="mobileNav">
+
+      <div class="row">
+        <a href="#/" class="homebutton">
+          <h1 style="padding-left: .4em">ROOTLESS</h1>
+        </a>
+
+        <img class="hamburger" src="img/hamburger.png">
+      </div>
+      <div class="col-md-10 col-md-offset-1">
+        <ul id="menu2">
+          <li>Parent 1
+            <ul>
+              <li><a href="#">item 3</a></li>
+              <li>Parent 3
+                <ul>
+                  <li><a href="#">item 8</a></li>
+                  <li><a href="#">item 9</a></li>
+                  <li><a href="#">item 10</a></li>
+                </ul>
+              </li>
+              <li><a href="#">item 4</a></li>
+            </ul>
+          </li>
+          <li><a href="#">item 1</a></li>
+          <li>non-link item</li>
+          <li>Parent 2
+            <ul>
+              <li><a href="#">item 5</a></li>
+              <li><a href="#">item 6</a></li>
+              <li><a href="#">item 7</a></li>
+            </ul>
+          </li>
+        </ul> -->
+
+        <!-- <div class="row sitesections">
           <div class="btn-group">
             <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Adventures
@@ -79,22 +168,21 @@
               <li><a href="http://www.travelpod.com/travel-blog/matterri/1/tpod.html">Eurotrip 2014</a></li>
             </ul>
           </div>
-        </div>
-      </div>
-    </nav>
-    <!-- END DESKTOP MENU -->
+        </div> -->
+      <!-- </div>
+    </nav> -->
+    <!-- END MOBILE MENU -->
 
     <!--RESPONSIVE NAVBAR -->
     <!-- <nav id="mainNav" class="navbar navbar-default">
       <div class="container-fluid">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" style="margin-top: 1.8em;">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Brand</a>
         </div>
 
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
