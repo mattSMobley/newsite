@@ -188,13 +188,22 @@ a:hover {
     height: 20em;
   }
 }
-
-@media (max-width: 500px) {
+@media (max-width: 502px) {
   .caret {
     padding: 0em;
-    margin-right: .8em;
+    margin-right: 1.2em;
   }
   .spacer {
-    padding: .1em;
+    padding: .4em;
+  }
+}
+
+@media (max-width: 420px) {
+  .caret {
+    padding: 0em;
+    margin-right: .4em;
+  }
+  .spacer {
+    padding: .05em;
   }
 }
