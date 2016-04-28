@@ -196,6 +196,9 @@ a:hover {
   .spacer {
     padding: .4em;
   }
+  #mainPic {
+    margin-top: 1em;
+  }
 }
 
 @media (max-width: 420px) {
@@ -205,5 +208,8 @@ a:hover {
   }
   .spacer {
     padding: .05em;
+  }
+  #mainPic {
+    margin-top: 1em;
   }
 }
