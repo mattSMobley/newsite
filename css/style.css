@@ -68,7 +68,7 @@ ul {
 
 
 .spacer {
-  padding: .6em;
+  padding: .75em;
 }
 
 h1 {
@@ -222,7 +222,10 @@ a:hover {
 @media (max-width: 500px) {
   .caret {
     padding: 0em;
-    margin-right: .7em;
+    margin-right: .9em;
+  }
+  .spacer {
+    padding: .5em;
   }
 }
 
