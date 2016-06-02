@@ -1,4 +1,4 @@
-/* GENERAL */
+/*------------------------------- GENERAL ------------------------------------*/
 body {
   padding-top: 2em;
   padding-bottom: 2em;
@@ -46,7 +46,7 @@ body {
 }
 
 
-/* TEXT SIZES */
+/*-------------------------------- TEXT SIZES ---------------------------------*/
 h1 {
   font-family: serif;
   font-weight: bold;
@@ -88,7 +88,7 @@ h4 {
 }
 
 
-/* NAVBAR */
+/*------------------------------------ NAVBAR --------------------------------*/
 #mainPic {
   height: 36em;
   width: 100%;
@@ -128,7 +128,7 @@ ul {
 }
 
 
-/* BUTTONS AND LINKS */
+/* -------------------------- BUTTONS AND LINKS ---------------------------- */
 .btn {
   text-transform: uppercase;
   background-color: rgba(255, 255, 255, 0);;
@@ -167,7 +167,7 @@ a:hover {
 }
 
 
-/* MEDIA QUERIES */
+/*-------------------------------- MEDIA QUERIES -----------------------------*/
 @media (max-width: 900px){
   #mainPic {
     height: 28em;
@@ -187,6 +187,9 @@ a:hover {
   #mainPic {
     height: 20em;
   }
+  .blog {
+    padding-top: .5em;
+  }
 }
 @media (max-width: 502px) {
   .caret {
@@ -199,15 +202,18 @@ a:hover {
   #mainPic {
     margin-top: 1em;
   }
+  .blog {
+    padding-top: 1.2em;
+  }
 }
 
 @media (max-width: 420px) {
   .caret {
     padding: 0em;
-    margin-right: .4em;
+    margin-right: .75em;
   }
   .spacer {
-    padding: .05em;
+    padding: .2em;
   }
   #mainPic {
     margin-top: 1em;
