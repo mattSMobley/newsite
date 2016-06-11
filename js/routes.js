@@ -25,6 +25,9 @@ angular.module("app")
       .when('/northAmerica', {
         templateUrl: 'views/northAmerica.html'
       })
+      .when('/northAmerica/colorado', {
+        templateUrl: 'views/northAmerica/colorado.html'
+      })
       .when('/cruising', {
         templateUrl: 'views/cruising.html'
       })
