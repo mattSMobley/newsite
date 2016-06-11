@@ -22,8 +22,8 @@ angular.module("app")
       .when('/europe', {
         templateUrl: 'views/europe.html'
       })
-      .when('/usa', {
-        templateUrl: 'views/usa.html'
+      .when('/northAmerica', {
+        templateUrl: 'views/northAmerica.html'
       })
       .when('/cruising', {
         templateUrl: 'views/cruising.html'
@@ -37,22 +37,22 @@ angular.module("app")
       .when('/spain', {
         templateUrl: 'views/spain.html'
       })
-      .when('/valencia', {
+      .when('/spain/valencia', {
         templateUrl: 'views/spain/valencia.html'
       })
-      .when('/palma', {
+      .when('/spain/palma', {
         templateUrl: 'views/spain/palma.html'
       })
-      .when('/catalonia', {
+      .when('/spain/catalonia', {
         templateUrl: 'views/spain/catalonia.html'
       })
-      .when('/france', {
-        templateUrl: 'views/france.html'
+      .when('/southernFrance', {
+        templateUrl: 'views/southernFrance.html'
       })
-      .when('/france/marseille', {
+      .when('/southernFrance/marseille', {
         templateUrl: 'views/southernFrance/marseille.html'
       })
-      .when('/france/montpellier', {
+      .when('/southernFrance/montpellier', {
         templateUrl: 'views/southernFrance/montpellier.html'
       })
       .when('/portugal', {
@@ -61,8 +61,8 @@ angular.module("app")
       .when('/portugal/porto', {
         templateUrl: 'views/portugal/porto.html'
       })
-      .when('/portugal/cascaisSintra', {
-        templateUrl: 'views/portugal/cascaisSintra.html'
+      .when('/portugal/lisbonArea', {
+        templateUrl: 'views/portugal/lisbonArea.html'
       })
       .when('/belgium', {
         templateUrl: 'views/belgium.html'

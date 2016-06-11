@@ -31,6 +31,12 @@ body {
   margin-right: collapse;
 }
 
+.portrait {
+  width: 60%;
+  height: 30em;
+  vertical-align: center;
+}
+
 .blog div {
 	display: inline-block;
 	width: 100%;
@@ -38,13 +44,12 @@ body {
 
 .blog img {
 	display: block;
-	height: auto;
+	height: 25em;
   -webkit-transition: all 1000ms;
 	-moz-transition: all 1000ms;
 	transition: all 1000ms;
 	max-width: 100%;
 }
-
 
 .blog figure {
 	height: 25em;
