@@ -31,6 +31,18 @@ angular.module("app")
       .when('/cruising', {
         templateUrl: 'views/cruising.html'
       })
+      .when('/cruising/philipsburg', {
+        templateUrl: 'views/cruising/philipsburg.html'
+      })
+      .when('/cruising/funchal', {
+        templateUrl: 'views/cruising/funchal.html'
+      })
+      .when('/cruising/malaga', {
+        templateUrl: 'views/cruising/malaga.html'
+      })
+      .when('/cruising/tenerife', {
+        templateUrl: 'views/cruising/tenerife.html'
+      })
       .when('/helpfulmaps', {
         templateUrl: 'views/helpfulmaps.html'
       })
