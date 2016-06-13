@@ -256,6 +256,12 @@ a:hover {
   .blog-img {
     max-height: 20em;
   }
+  .blog img {
+    max-height: 20em;
+  }
+  .blog figure {
+    max-height: 20em;
+  }
 }
 
 @media (max-width: 700px) {
@@ -274,6 +280,15 @@ a:hover {
   .blog-img {
     max-height: 15em;
   }
+  .blog img {
+    max-height: 15em;
+  }
+  .blog figure {
+    max-height: 15em;
+  }
+  .blog figcaption p {
+    font-size: 1em;
+  }
 }
 @media (max-width: 502px) {
   .caret {
@@ -291,6 +306,15 @@ a:hover {
   }
   .blog-img {
     max-height: 10em;
+  }
+  .blog img {
+    max-height: 10em;
+  }
+  .blog figure {
+    max-height: 10em;
+  }
+  .blog figcaption p {
+    font-size: 1em;
   }
 }
 
