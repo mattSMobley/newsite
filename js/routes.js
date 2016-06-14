@@ -43,6 +43,9 @@ angular.module("app")
       .when('/cruising/tenerife', {
         templateUrl: 'views/cruising/tenerife.html'
       })
+      .when('/cruising/gibraltar', {
+        templateUrl: 'views/cruising/gibraltar.html'
+      })
       .when('/helpfulmaps', {
         templateUrl: 'views/helpfulmaps.html'
       })
