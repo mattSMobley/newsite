@@ -316,6 +316,10 @@ a:hover {
   .blog figcaption p {
     font-size: 1em;
   }
+  .bottomblog {
+    width: 25em;
+    height: 15em;
+  }
 }
 
 @media (max-width: 420px) {
