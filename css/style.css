@@ -159,6 +159,8 @@ h4 {
 .blog {
   font-weight: lighter;
   font-size: 2em;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 .captions {
     margin-bottom: 4em;
