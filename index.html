@@ -14,8 +14,6 @@
     rel="icon" type="image/x-icon" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="SlickNav/slicknav.css" />
-  <script src="SlickNav/jquery.slicknav.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular-route.js"></script>
 
@@ -95,8 +93,24 @@
 
   <div ng-view autoscroll="true">
   </div>
-
-
+  <script src="./js/bLazy.js"></script>
+  <script>
+  var bLazy = new Blazy({
+     breakpoints: [{
+   width: 420 // Max-width
+       , src: 'data-src-small'
+}]
+   , success: function(element){
+   setTimeout(function(){
+ // We want to remove the loader gif now.
+ // First we find the parent container
+ // then we remove the "loading" class which holds the loader image
+ var parent = element.parentNode;
+ parent.className = parent.className.replace(/\bloading\b/,'');
+   }, 200);
+     }
+});
+  </script>
   <script src="./js/app.js"></script>
   <script src="./js/controllers.js"></script>
   <script src="./js/directives.js"></script>

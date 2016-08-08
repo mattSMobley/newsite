@@ -1,0 +1,21 @@
+{
+  "name": "newsite",
+  "description": "####Author & Photographer: Matt Mobley",
+  "main": "index.js",
+  "authors": [
+    "Matt Mobley <mattsmobley@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/mattSMobley/newsite",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-lazy-img": "^1.2.2"
+  }
+}

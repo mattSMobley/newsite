@@ -29,6 +29,7 @@ body {
   display: block;
   margin-left: collapse;
   margin-right: collapse;
+  object-fit: cover;
 }
 
 .portrait {

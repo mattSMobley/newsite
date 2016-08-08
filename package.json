@@ -1,0 +1,23 @@
+{
+  "name": "newsite",
+  "version": "1.0.0",
+  "description": "####Author & Photographer: Matt Mobley",
+  "main": "index.js",
+  "dependencies": {
+    "angular-lazy-loader": "^2.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattSMobley/newsite.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mattSMobley/newsite/issues"
+  },
+  "homepage": "https://github.com/mattSMobley/newsite#readme"
+}
