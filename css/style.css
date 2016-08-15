@@ -292,6 +292,10 @@ a:hover {
   .blog figcaption p {
     font-size: 1em;
   }
+  .bottomblog img{
+    width: 20em;
+    height: 10em;
+  }
 }
 @media (max-width: 502px) {
   .caret {
@@ -320,8 +324,8 @@ a:hover {
     font-size: 1em;
   }
   .bottomblog {
-    width: 25em;
-    height: 15em;
+    width: 20em;
+    height: 10em;
   }
 }
 
@@ -338,6 +342,10 @@ a:hover {
   }
   .blog-img {
     max-height: 10em;
+  }
+  .bottomblog {
+    width: 20em;
+    height: 10em;
   }
 }
 
@@ -430,7 +438,7 @@ nav ul {
 }
 @media only screen and (max-width: 766px) {
   nav ul {
-    padding-top: 22px;
+    padding-top: 10px;
     margin-bottom: 22px;
     float: left;
     text-align: center;
@@ -440,7 +448,7 @@ nav ul {
 nav ul li {
   display: inline-block;
   margin-left: 35px;
-  line-height: 2;
+  line-height: 1.5;
 }
 @media only screen and (max-width: 766px) {
   nav ul li {
@@ -452,7 +460,7 @@ nav ul li {
 nav ul a {
   color: #888888;
   text-transform: uppercase;
-  font-size: 15px;
+  font-size: 12px;
 }
 nav ul a:hover {
   border-top: #888888 1px solid;
@@ -483,7 +491,6 @@ nav ul a:hover {
   border-radius: 1000px;
   background: #8f8f8f;
   display: block;
-  /*padding-top: 10%;*/
 }
 
 .row {
@@ -647,8 +654,8 @@ video {
 }
 .bottomblog {
 	border-radius: 50%;
-	height: 14em;
-	width: 22em;
+	height: 15em;
+	width: 20em;
   margin-top: 5em;
   margin-bottom: 2em;
 }
