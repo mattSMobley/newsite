@@ -7,11 +7,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Rootless | A Man and a World</title>
+  <link href='http://fonts.googleapis.com/css?family=Montserrat|Cardo' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="./css/style.css">
-  <link href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAIIjAAA2DgCMYRYAYz8AAABUFwDHnFIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACIiVQAAAABENVURMwAABDM1URZmMABDMzMRFmZjAEMzM2ZmEWUEM1VRYWEREVQzNVFhERERVDVTFhERERFUNTMWEREREVQzNRZmYRERVDMzZhYRERFQQzNmEREWYwBDM2ZhERFjAAQzZmEWZjAAAEQ2ZmYzAAAAAEQzMwAAD4HwAA4AcAAMADAACAAQAAgAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIABAACAAQAAwAMAAOAHAAD4HwAA"
-    rel="icon" type="image/x-icon" />
+  <link href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAIIjAAA2DgCMYRYAYz8AAABUFwDHnFIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACIiVQAAAABENVURMwAABDM1URZmMABDMzMRFmZjAEMzM2ZmEWUEM1VRYWEREVQzNVFhERERVDVTFhERERFUNTMWEREREVQzNRZmYRERVDMzZhYRERFQQzNmEREWYwBDM2ZhERFjAAQzZmEWZjAAAEQ2ZmYzAAAAAEQzMwAAD4HwAA4AcAAMADAACAAQAAgAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIABAACAAQAAwAMAAOAHAAD4HwAA" rel="icon" type="image/x-icon" />
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
@@ -21,71 +22,28 @@
 
 <body ng-controller="MainController">
 
-  <div class="col-md-1">
-  </div>
-  <!-- DESKTOP MENU -->
-   <div class="col-md-10">
-   <nav id="mainNav">
-      <div class="col-md-10 col-md-offset-1">
-        <div class="row">
-          <a href="#/" class="homebutton">
-            <h1>ROOTLESS</h1>
-          </a>
-        </div>
-        <div class="row sitesections">
-          <div class="btn-group">
-            <button type="button" id="menuButton" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              My Travels
-              <span class="spacer"></span>
-              <span class="caret"></span>
-            </button>
-            <ul class="dropdown-menu">
-              <li><a href="#/europe">Europe</a></li>
-              <li><a href="#/northAmerica">North America</a></li>
-              <li><a href="#/cruising">Cruising</a></li>
-              <li role="separator" class="divider"></li>
-              <li><a href="#/faves">Favorites</a></li>
-            </ul>
-          </div>
-          <div class="btn-group">
-            <button type="button" id="menuButton" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Advice
-              <span class="spacer"></span>
-              <span class="caret"></span>
-            </button>
-            <ul class="dropdown-menu">
-              <li><a href="#/budgettraveleurope">Budget Traveling Europe</a></li>
-            </ul>
-          </div>
-          <div class="btn-group">
-            <button type="button" id="menuButton" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Apps
-              <span class="spacer"></span>
-              <span class="caret"></span>
-            </button>
-            <ul class="dropdown-menu">
-              <li><a href="http://travelsuggestions.xyz">Trip Suggestions</a></li>
-              <li><a href="http://tripstart.site">City Info</a></li>
-            </ul>
-          </div>
-          <!-- <div class="btn-group">
-            <button type="button" id="menuButton" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Blog
-              <span class="spacer"></span>
-              <span class="caret"></span>
-            </button>
-            <ul class="dropdown-menu">
-              <li><a href="http://www.travelpod.com/travel-blog/matterri/1/tpod.html">Eurotrip 2014</a></li>
-            </ul>
-          </div> -->
-        </div>
-      </div>
-    </nav>
-    <!-- END DESKTOP MENU -->
+  <header class="main_h">
 
-  </div>
-  <div class="col-md-1">
-  </div>
+      <div class="row">
+          <a class="logo" href="#/">ROOTLESS</a>
+
+          <div class="mobile-toggle">
+              <span></span>
+              <span></span>
+              <span></span>
+          </div>
+
+          <nav>
+              <ul>
+                  <li><a href="#/travels">Travels</a></li>
+                  <li><a href="#/advice">Advice</a></li>
+                  <li><a href="#/apps">Apps</a></li>
+              </ul>
+          </nav>
+
+      </div> <!-- / row -->
+
+  </header>
 
 
 
@@ -93,6 +51,8 @@
 
   <div ng-view autoscroll="true">
   </div>
+
+
   <script src="./js/bLazy.js"></script>
   <script>
   var bLazy = new Blazy({
@@ -110,6 +70,46 @@
    }, 200);
      }
 });
+
+
+// Sticky Header
+$(window).scroll(function() {
+
+    if ($(window).scrollTop() > 100) {
+        $('.main_h').addClass('sticky');
+    } else {
+        $('.main_h').removeClass('sticky');
+    }
+});
+
+// Mobile Navigation
+$('.mobile-toggle').click(function() {
+    if ($('.main_h').hasClass('open-nav')) {
+        $('.main_h').removeClass('open-nav');
+    } else {
+        $('.main_h').addClass('open-nav');
+    }
+});
+
+$('.main_h li a').click(function() {
+    if ($('.main_h').hasClass('open-nav')) {
+        $('.navigation').removeClass('open-nav');
+        $('.main_h').removeClass('open-nav');
+    }
+});
+
+// navigation scroll lijepo radi materem
+$('nav a').click(function(event) {
+    var id = $(this).attr("href");
+    var offset = 70;
+    var target = $(id).offset().top - offset;
+    $('html, body').animate({
+        scrollTop: target
+    }, 500);
+    event.preventDefault();
+});
+
+
   </script>
   <script src="./js/app.js"></script>
   <script src="./js/controllers.js"></script>

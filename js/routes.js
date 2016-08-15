@@ -4,6 +4,15 @@ angular.module("app")
       .when('/', {
         templateUrl: 'views/main.html'
       })
+      .when('/travels', {
+        templateUrl: 'views/travels.html'
+      })
+      .when('/advice', {
+        templateUrl: 'views/advice.html'
+      })
+      .when('/apps', {
+        templateUrl: 'views/apps.html'
+      })
       .when('/faves', {
         templateUrl: 'views/faves.html'
       })
@@ -79,8 +88,8 @@ angular.module("app")
       .when('/portugal/porto', {
         templateUrl: 'views/portugal/porto.html'
       })
-      .when('/portugal/lisbonArea', {
-        templateUrl: 'views/portugal/lisbonArea.html'
+      .when('/portugal/lisbon', {
+        templateUrl: 'views/portugal/lisbon.html'
       })
       .when('/belgium', {
         templateUrl: 'views/belgium.html'
