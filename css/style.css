@@ -597,38 +597,38 @@ video {
   background-position: bottom-right;
 }
 #featureFrance {
-  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/france.jpg');
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/france.JPG');
   background-position: bottom-right;
 }
 #featureFrance:hover {
-  background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/france.jpg');
+  background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/france.JPG');
   background-position: bottom-right;
 }
 #featureCroatia {
-  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/croatia.jpg');
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/croatia.JPG');
   background-position: bottom-right;
 }
 #featureCroatia:hover {
-  background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/croatia.jpg');
+  background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/croatia.JPG');
   background-position: bottom-right;
 }
 #featureColorado {
-  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/colorado.jpg');
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/colorado.JPG');
   background-position: bottom-right;
 }
 #featureColorado a h1 {
   color: #888;
 }
 #featureColorado:hover {
-  background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/colorado.jpg');
+  background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/colorado.JPG');
   background-position: bottom-right;
 }
 #featureCruising {
-  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/cruising.jpg');
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/cruising.JPG');
   background-position: bottom-right;
 }
 #featureCruising:hover {
-  background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/cruising.jpg');
+  background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/cruising.JPG');
   background-position: bottom-right;
 }
 #featureBudget {
