@@ -586,6 +586,7 @@ video {
     background-position: bottom-right;
   }
 }
+
 .feature h1 {
   font-size: 50px;
   line-height: 1.3;
@@ -598,6 +599,18 @@ video {
   padding-bottom: 12px;
   line-height: 3;
   z-index: 999;
+}
+@media only screen and (max-width: 600px){
+  .feature {
+    padding-top: 20px;
+    padding-bottom: 100px;
+    max-height: 400px;
+    min-height: 400px;
+  }
+  .feature h1 {
+    font-size: 35px;
+  }
+
 }
 .bottomblog {
 	border-radius: 50%;
@@ -646,6 +659,7 @@ video {
           transform: translate(-50%, -50%);
 }
 
+
 .globe {
   margin-bottom: 5px;
   border-radius: 50%;
@@ -668,6 +682,12 @@ video {
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
   display: inline-block;
+}
+
+@media only screen and (max-width: 600px){
+  .globe {
+    margin-bottom: 25px;
+  }
 }
 
 @-webkit-keyframes slide {
