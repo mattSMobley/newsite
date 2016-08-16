@@ -438,8 +438,8 @@ nav ul {
 }
 @media only screen and (max-width: 766px) {
   nav ul {
-    padding-top: 22px;
-    margin-bottom: 22px;
+    padding-top: 25px;
+    margin-bottom: 20px;
     float: left;
     text-align: center;
     width: 100%;
@@ -460,7 +460,7 @@ nav ul li {
 nav ul a {
   color: #888888;
   text-transform: uppercase;
-  font-size: 15px;
+  font-size: 18px;
 }
 nav ul a:hover {
   border-top: #888888 1px solid;
