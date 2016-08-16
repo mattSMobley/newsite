@@ -31,18 +31,15 @@ body {
   margin-right: collapse;
   object-fit: cover;
 }
-
 .portrait {
   width: 60%;
   height: 30em;
   vertical-align: center;
 }
-
 .blog div {
 	display: inline-block;
 	width: 100%;
 }
-
 .blog img {
 	display: block;
 	height: 24em;
@@ -58,7 +55,6 @@ body {
 	position: relative;
 	width: 100%;
 }
-
 .blog figcaption {
 	background: rgba(0,0,0,0.8);
 	color: white;
@@ -110,9 +106,6 @@ body {
 	-webkit-transform: translateY(50px);
 	transform: translateY(50px);
 }
-
-
-
 .row {
   margin-left: 0em;
   margin-right: 0em;
@@ -168,72 +161,8 @@ h4 {
     text-align: center;
 }
 
-
-/*------------------------------------ NAVBAR --------------------------------*/
-#mainPic {
-  height: 36em;
-  width: 100%;
-}
-#mainNav {
-  width: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 9999;
-  /*background-color: white;*/
-  background:
-    linear-gradient(
-      rgba(255, 255, 255, .2),
-      rgba(255, 255, 255, .2)
-    ),
-    url('../img/symphony.png');
-    /*url('../img/subtle_white_feathers.png');*/
-    /*url('../img/norwegian_rose.png');*/
-  padding-bottom: 1em;
-}
-ul {
-  background-color: rgba(255, 255, 255, 0);
-}
-.dropdown-toggle {
-  background-color: rgba(255, 255, 255, 0);
-}
-.dropdown-menu ul {
-  display: none;
-}
-.dropdown-menu ul:hover {
-  display: block;
-}
-.caret {
-  color: #999999;
-  margin-right: 3em;
-}
-
-
 /* -------------------------- BUTTONS AND LINKS ---------------------------- */
-.btn {
-  text-transform: uppercase;
-  background-color: rgba(255, 255, 255, 0);;
-  padding-left: 0em;
-}
-.btn-default{
-  background-color: rgba(255, 255, 255, 0);;
-  border: none;
-}
-.btn-default:hover {
-  color: #777777;
-  background-color: rgba(255, 255, 255, 0);
-  border: none;
-  shadow: none;
-}
-.btn .btn-default .dropdown-toggle{
-  background-color: rgba(255, 255, 255, 0);
-}
-.btn-group {
-  background-color: rgba(255, 255, 255, 0);
-}
-.homebutton {
-  padding: none;
-}
+
 a:link {
     color: black;
 }
@@ -242,20 +171,11 @@ a:hover {
     color: #777777;
     text-decoration: none;
 }
-.inactive {
-  margin-left: 1.5em;
-  color: #BDBDBD
-}
+
 
 
 /*-------------------------------- MEDIA QUERIES -----------------------------*/
 @media (max-width: 900px){
-  #mainPic {
-    height: 28em;
-  }
-  .caret {
-    margin-right: 2em;
-  }
   .blog-img {
     max-height: 20em;
   }
@@ -268,15 +188,6 @@ a:hover {
 }
 
 @media (max-width: 700px) {
-  .sitesections {
-    padding: 0em;
-  }
-  #menuButton {
-    padding: 0em;
-  }
-  #mainPic {
-    height: 20em;
-  }
   .blog {
     padding-top: .5em;
   }
@@ -298,16 +209,6 @@ a:hover {
   }
 }
 @media (max-width: 502px) {
-  .caret {
-    padding: 0em;
-    margin-right: 1.2em;
-  }
-  .spacer {
-    padding: .4em;
-  }
-  #mainPic {
-    margin-top: 1em;
-  }
   .blog {
     padding-top: 1.2em;
   }
@@ -330,16 +231,6 @@ a:hover {
 }
 
 @media (max-width: 420px) {
-  .caret {
-    padding: 0em;
-    margin-right: .75em;
-  }
-  .spacer {
-    padding: .2em;
-  }
-  #mainPic {
-    margin-top: 1em;
-  }
   .blog-img {
     max-height: 10em;
   }
@@ -656,6 +547,8 @@ video {
 #featureBudget {
   background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/budgettraveleurope.jpg');
   background-position: bottom-right;
+  background-size:cover;
+  background-repeat: no-repeat;;
 }
 #featureBudget:hover {
   background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/budgettraveleurope.jpg');
