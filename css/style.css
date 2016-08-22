@@ -576,7 +576,6 @@ video {
   #featureFrance {
     background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/france.JPG');
     background-position: bottom-right;
-    padding-top: 50px;
   }
   #featureCroatia {
     background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/croatia.JPG');
@@ -585,7 +584,6 @@ video {
   #featureColorado {
     background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/colorado.JPG');
     background-position: bottom-right;
-    padding-top: 50px;
 
   }
   #featureCruising {
