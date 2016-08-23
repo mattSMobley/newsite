@@ -534,6 +534,14 @@ video {
   background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/croatia.JPG');
   background-position: bottom-right;
 }
+#featureItaly {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/italy.JPG');
+  background-position: bottom-right;
+}
+#featureItaly:hover {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/italy.JPG');
+  background-position: bottom-right;
+}
 #featureColorado {
   background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/colorado.JPG');
   background-position: bottom-right;
@@ -581,10 +589,13 @@ video {
     background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/croatia.JPG');
     background-position: bottom-right;
   }
+  #featureItaly {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/italy.JPG');
+    background-position: bottom-right;
+  }
   #featureColorado {
     background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/colorado.JPG');
     background-position: bottom-right;
-
   }
   #featureCruising {
     background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/cruising.JPG');

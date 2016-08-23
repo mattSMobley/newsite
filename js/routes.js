@@ -46,9 +46,6 @@ angular.module("app")
       .when('/cruising/funchal', {
         templateUrl: 'views/cruising/funchal.html'
       })
-      .when('/cruising/malaga', {
-        templateUrl: 'views/cruising/malaga.html'
-      })
       .when('/cruising/tenerife', {
         templateUrl: 'views/cruising/tenerife.html'
       })
@@ -72,6 +69,9 @@ angular.module("app")
       })
       .when('/spain/catalonia', {
         templateUrl: 'views/spain/catalonia.html'
+      })
+      .when('/spain/malaga', {
+        templateUrl: 'views/spain/malaga.html'
       })
       .when('/southernFrance', {
         templateUrl: 'views/southernFrance.html'
