@@ -640,6 +640,9 @@ video {
   #featureCruising h1{
     margin-top: -8px;
   }
+  p {
+    font-size: 1em;
+  }
 
 }
 .bottomblog {
