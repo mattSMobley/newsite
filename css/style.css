@@ -691,6 +691,15 @@ video {
   .feature h1 {
     font-size: 35px;
   }
+  .featureMain {
+    /*padding-top: -120px;
+    padding-bottom: -100px;*/
+    /*height: 200px;*/
+    min-height: 200px;
+  }
+  .featureMain h1 {
+    font-size: 35px;
+  }
   h1 {
     font-size: 20px;
   }
