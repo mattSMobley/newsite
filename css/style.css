@@ -688,6 +688,9 @@ video {
     /*height: 200px;*/
     min-height: 200px;
   }
+  .globeContainer {
+    margin-top: 40px;
+  }
   .feature h1 {
     font-size: 35px;
   }
