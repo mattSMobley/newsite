@@ -154,7 +154,7 @@ h4 {
 }
 .blog {
   font-weight: lighter;
-  font-size: 2em;
+  font-size: 3em;
 }
 .captions {
     margin-bottom: 4em;
@@ -185,6 +185,7 @@ a:hover {
   .blog figure {
     max-height: 20em;
   }
+
 }
 
 @media (max-width: 700px) {
@@ -336,7 +337,7 @@ nav ul {
     width: 100%;
   }
   p {
-    font-size: 1.2em;
+    font-size: .8em;
   }
 }
 nav ul li {
@@ -641,7 +642,7 @@ video {
     margin-top: -8px;
   }
   p {
-    font-size: 1em;
+    font-size: .6em;
   }
 
 }
