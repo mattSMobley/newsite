@@ -634,6 +634,12 @@ video {
   h1 {
     font-size: 20px;
   }
+  #featureSpain h1{
+    margin-top: -8px;
+  }
+  #featureCruising h1{
+    margin-top: -8px;
+  }
 
 }
 .bottomblog {
