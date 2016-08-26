@@ -691,8 +691,9 @@ video {
   .globeContainer {
     margin-top: 40px;
   }
-  .feature h1 {
+  .feature h1 span{
     font-size: 35px;
+    margin-top: -15px;
   }
   .featureMain {
     /*padding-top: -120px;
@@ -702,6 +703,7 @@ video {
   }
   .featureMain h1 {
     font-size: 35px;
+    margin-top: -15px;
   }
   h1 {
     font-size: 20px;
