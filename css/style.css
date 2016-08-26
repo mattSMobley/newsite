@@ -25,7 +25,7 @@ body {
 }
 .blog-img {
   width: 100%;
-  height: 22em;
+  height: 18em;
   display: block;
   margin-left: collapse;
   margin-right: collapse;
@@ -42,7 +42,7 @@ body {
 }
 .blog img {
 	display: block;
-	height: 24em;
+	height: 17.5em;
   -webkit-transition: all 1000ms;
 	-moz-transition: all 1000ms;
 	transition: all 1000ms;
@@ -50,7 +50,7 @@ body {
 }
 
 .blog figure {
-	height: 20em;
+	height: 17.5em;
 	overflow: hidden;
 	position: relative;
 	width: 100%;
@@ -175,15 +175,44 @@ a:hover {
 
 
 /*-------------------------------- MEDIA QUERIES -----------------------------*/
-@media (max-width: 900px){
+@media (max-width: 1300px){
   .blog-img {
-    max-height: 20em;
+    max-height: 16em;
   }
   .blog img {
-    max-height: 20em;
+    max-height: 16em;
   }
+
   .blog figure {
-    max-height: 20em;
+    max-height: 16em;
+  }
+
+}
+
+@media (max-width: 1200px){
+  .blog-img {
+    max-height: 14em;
+  }
+  .blog img {
+    max-height: 14em;
+  }
+
+  .blog figure {
+    max-height: 14em;
+  }
+
+}
+
+@media (max-width: 900px){
+  .blog-img {
+    max-height: 12em;
+  }
+  .blog img {
+    max-height: 12em;
+  }
+
+  .blog figure {
+    max-height: 12em;
   }
 
 }
@@ -193,13 +222,13 @@ a:hover {
     padding-top: .5em;
   }
   .blog-img {
-    max-height: 15em;
+    max-height: 12em;
   }
   .blog img {
-    max-height: 15em;
+    max-height: 12em;
   }
   .blog figure {
-    max-height: 15em;
+    max-height: 12em;
   }
   .blog figcaption p {
     font-size: 1em;
@@ -217,10 +246,10 @@ a:hover {
     max-height: 10em;
   }
   .blog img {
-    max-height: 10em;
+    max-height: 8em;
   }
   .blog figure {
-    max-height: 10em;
+    max-height: 8em;
   }
   .blog figcaption p {
     font-size: 1em;
@@ -441,7 +470,7 @@ video {
   padding: 50px 2%;
 }
 
-.feature {
+.featureMain {
   position: relative;
   background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../img/mainPic.jpg');
   color: #CCC;
@@ -452,6 +481,23 @@ video {
   text-align: center;
   padding-top: 200px;
   padding-bottom: 320px;
+  background-position: bottom-right;
+  height: 80vh;
+  letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+}
+.feature {
+  /*position: relative;
+  background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../img/mainPic.jpg');*/
+  color: #CCC;
+  margin-top: -200px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  padding-top: 300px;
+  padding-bottom: 200px;
   background-position: bottom-right;
   height: 80vh;
   letter-spacing: 2px;
@@ -609,9 +655,22 @@ video {
 
 }
 
+.featureMain h1 {
+  font-size: 50px;
+  line-height: 1.3;
+  z-index: 999;
+}
 .feature h1 {
   font-size: 50px;
   line-height: 1.3;
+  z-index: 999;
+}
+.featureMain h1 span {
+  font-size: 25px;
+  color: #FFFFFF;
+  border-bottom: 2px solid #e8f380;
+  padding-bottom: 12px;
+  line-height: 3;
   z-index: 999;
 }
 .feature h1 span {
