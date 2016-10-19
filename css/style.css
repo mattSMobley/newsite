@@ -719,6 +719,9 @@ video {
     margin-top: -30px;
     font-size: 1.75em;
   }
+  #featureSpain {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../img/spain.JPG');
+  }
   #featureCruising h1{
     margin-top: -30px;
     font-size: 1.75em;
