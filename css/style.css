@@ -722,9 +722,54 @@ video {
   #featureSpain {
     background-image: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../img/spain.JPG');
   }
+  #featurePortugal h1{
+    margin-top: -20px;
+    font-size: 1.75em;
+  }
+  #featurePortugal {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../img/portugal.JPG');
+  }
+  #featureFrance h1{
+    margin-top: -15px;
+    font-size: 1.75em;
+  }
+  #featureFrance {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../img/france.JPG');
+  }
+  #featureCroatia h1{
+    margin-top: -25px;
+    font-size: 1.75em;
+  }
+  #featureCroatia {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../img/croatia.JPG');
+  }
+  #featureColorado h1{
+    margin-top: -5px;
+    font-size: 1.75em;
+  }
+  #featureColorado {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../img/colorado.JPG');
+  }
   #featureCruising h1{
+    margin-top: -25px;
+    font-size: 1.75em;
+  }
+  #featureCruising {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../img/cruising.JPG');
+  }
+  #featureBudget h1{
     margin-top: -30px;
     font-size: 1.75em;
+  }
+  #featureBudget {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../img/budgettraveleurope.JPG');
+  }
+  #featureItaly h1{
+    margin-top: -30px;
+    font-size: 1.75em;
+  }
+  #featureItaly {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../img/italy.JPG');
   }
   p {
     font-size: .6em;
