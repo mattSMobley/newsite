@@ -716,10 +716,12 @@ video {
     font-size: 25px;
   }
   #featureSpain h1{
-    margin-top: -15px;
+    margin-top: -30px;
+    font-size: 1.75em;
   }
   #featureCruising h1{
-    margin-top: -20px;
+    margin-top: -30px;
+    font-size: 1.75em;
   }
   p {
     font-size: .6em;
