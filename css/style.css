@@ -490,6 +490,11 @@ video {
   font-family: "Montserrat", sans-serif;
   width: 100%;
 }
+@media screen only and (max-width: 550px) {
+  .featureMain {
+    background-attachment: scroll;
+  }
+}
 .feature {
   /*position: relative;
   background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../img/mainPic.jpg');*/
