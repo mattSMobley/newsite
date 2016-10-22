@@ -1,4 +1,4 @@
-# Rootless | <a href="http://rootless.ninja/#/">rootless.ninja</a>
+# <a href="http://rootless.ninja/#/">Rootless (dot ninja)</a>
 
 ## My Travels
 
