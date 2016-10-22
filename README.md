@@ -1,1 +1,5 @@
-# rootless
+# Rootless | rootless.ninja/#/
+
+## My Travels
+
+### Includes Pictures, Stories, Apps, Advice
