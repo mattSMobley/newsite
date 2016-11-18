@@ -7,13 +7,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Rootless | A Man and a World</title>
-  <link href='http://fonts.googleapis.com/css?family=Montserrat|Cardo' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Sorts+Mill+Goudy|Montserrat' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-  <!-- <link rel="stylesheet" href="./stylesheet.css">
-  <link rel="stylesheet" href="./stylesheet2.css"> -->
 
+
+  <link rel="stylesheet" href="./css/main.min.css">
+  <!-- <link rel="stylesheet" href="./css/style2.css"> -->
   <link rel="stylesheet" href="./css/style.css">
+
   <link href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAIIjAAA2DgCMYRYAYz8AAABUFwDHnFIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACIiVQAAAABENVURMwAABDM1URZmMABDMzMRFmZjAEMzM2ZmEWUEM1VRYWEREVQzNVFhERERVDVTFhERERFUNTMWEREREVQzNRZmYRERVDMzZhYRERFQQzNmEREWYwBDM2ZhERFjAAQzZmEWZjAAAEQ2ZmYzAAAAAEQzMwAAD4HwAA4AcAAMADAACAAQAAgAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIABAACAAQAAwAMAAOAHAAD4HwAA" rel="icon" type="image/x-icon" />
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -55,35 +57,18 @@
   <div ng-view autoscroll="true">
   </div>
 
-
-  <script src="./js/bLazy.js"></script>
   <script>
-  var bLazy = new Blazy({
-     breakpoints: [{
-   width: 420 // Max-width
-       , src: 'data-src-small'
-}]
-   , success: function(element){
-   setTimeout(function(){
- // We want to remove the loader gif now.
- // First we find the parent container
- // then we remove the "loading" class which holds the loader image
- var parent = element.parentNode;
- parent.className = parent.className.replace(/\bloading\b/,'');
-   }, 200);
-     }
-});
-
 
 // Sticky Header
 $(window).scroll(function() {
 
-    if ($(window).scrollTop() > 10) {
+    if ($(window).scrollTop() > 1) {
         $('.main_h').addClass('sticky');
     } else {
         $('.main_h').removeClass('sticky');
     }
 });
+
 
 // Mobile Navigation
 $('.mobile-toggle').click(function() {

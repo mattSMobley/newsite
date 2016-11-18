@@ -1,0 +1,27 @@
+// grid variables
+$grid-columns: 12;
+$grid-max-width: 100%;
+
+
+// breakpoints
+$breakpoint-mobile: "only screen and (min-width: 10em)";
+$breakpoint-small: "only screen and (min-width: 20em)";
+$breakpoint-medium: "only screen and (min-width: 30em)";
+$breakpoint-large: "only screen and (min-width: 50em)";
+
+
+//color scheme
+$base: #EEEEEE;
+$primary: #3F3933;
+$secondary: #29155D;
+$accent: #E5E500;
+
+
+//fonts
+$font-sans: 'Gill Sans', sans-serif;
+$font-serif: 'Sorts Mill Goudy', serif;
+$font-light: 200;
+
+//box-shadow
+$box-shadow-dark: 2px 2px 2px 2px $primary;
+$box-shadow-light: 1px 1px 10px 3px #888888;
