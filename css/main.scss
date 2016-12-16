@@ -39,10 +39,6 @@ body {
   color: white;
   font-weight: lighter;
 }
-// .fa {
-//   font-size: 2em;
-//   color: white;
-// }
 .spacer {
   padding: 0.75em;
 }
@@ -169,9 +165,6 @@ h4 {
   text-align: center;
 }
 /* -------------------------- BUTTONS AND LINKS ---------------------------- */
-a:link {
-  color: black;
-}
 a:hover {
   color: #777777;
   text-decoration: none;
@@ -188,33 +181,37 @@ a:hover {
   }
 }
 @media (max-width: 1200px) {
-  .blog img {
+  .blog {
+   img {
     max-height: 14em;
   }
-  .blog figure {
+  figure {
     max-height: 14em;
+    }
   }
 }
 @media (max-width: 900px) {
-  .blog img {
+  .blog {
+   img {
     max-height: 12em;
   }
-  .blog figure {
+  figure {
     max-height: 12em;
+    }
   }
 }
 @media (max-width: 700px) {
   .blog {
     padding-top: 0.5em;
-  }
-  .blog img {
+    img {
     max-height: 12em;
-  }
-  .blog figure {
+    }
+    figure {
     max-height: 12em;
-  }
-  .blog figcaption p {
+    }
+    figcaption p {
     font-size: 1em;
+    }
   }
   .bottomblog img {
     width: 20em;
@@ -224,20 +221,20 @@ a:hover {
 @media (max-width: 502px) {
   .blog {
     padding-top: 1.2em;
-  }
-  .blog img {
+    img {
     max-height: 8em;
-  }
-  .blog figure {
+    }
+    figure {
     max-height: 8em;
-  }
-  .blog figcaption p {
+    }
+    figcaption p {
     font-size: 1em;
-  }
-  .bottomblog {
-    width: 20em;
-    height: 10em;
-  }
+    }
+}
+.bottomblog {
+  width: 20em;
+  height: 10em;
+}
 }
 @media (max-width: 420px) {
   .bottomblog {
@@ -274,6 +271,7 @@ a:hover {
   top: 0;
   border-bottom: 1px solid gainsboro;
 }
+
 .logo {
   width: 50px;
   font-size: 28px;
@@ -366,7 +364,7 @@ nav ul a:hover {
   font-size: 20px;
   position: absolute;
   right: 22px;
-  top: 0;
+  top: 24px;
   width: 30px;
   -webkit-transition: all 200ms ease-in;
   -moz-transition: all 200ms ease-in;
@@ -404,11 +402,6 @@ h1 {
   text-transform: uppercase;
   font-family: "Montserrat", sans-serif;
 }
-/*p {
-  margin-bottom: 20px;
-  font-size: 1.5em;
-  line-height: 2;
-}*/
 video {
   width: 100%;
 }
@@ -438,8 +431,6 @@ video {
   }
 }
 .feature {
-  /*position: relative;
-  background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../img/mainPic.jpg');*/
   color: #CCC;
   margin-top: -200px;
   -webkit-background-size: cover;
@@ -447,7 +438,7 @@ video {
   background-size: cover;
   text-align: center;
   padding-top: 300px;
-  padding-bottom: 200px;
+  padding-bottom: 300px;
   background-position: bottom-right;
   height: 80vh;
   letter-spacing: 2px;

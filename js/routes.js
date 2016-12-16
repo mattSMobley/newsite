@@ -64,6 +64,9 @@ angular.module("app")
       .when('/spain/valencia', {
         templateUrl: 'views/spain/valencia.html'
       })
+      .when('/spain/valencia2', {
+        templateUrl: 'views/spain/valencia2.html'
+      })
       .when('/spain/palma', {
         templateUrl: 'views/spain/palma.html'
       })
