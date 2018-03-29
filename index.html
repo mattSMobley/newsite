@@ -15,22 +15,20 @@
   <link rel="stylesheet" href="./css/main.min.css">
   <!-- <link rel="stylesheet" href="./css/style2.css"> -->
   <link rel="stylesheet" href="./css/style.css">
+
   <link href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAIIjAAA2DgCMYRYAYz8AAABUFwDHnFIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACIiVQAAAABENVURMwAABDM1URZmMABDMzMRFmZjAEMzM2ZmEWUEM1VRYWEREVQzNVFhERERVDVTFhERERFUNTMWEREREVQzNRZmYRERVDMzZhYRERFQQzNmEREWYwBDM2ZhERFjAAQzZmEWZjAAAEQ2ZmYzAAAAAEQzMwAAD4HwAA4AcAAMADAACAAQAAgAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIABAACAAQAAwAMAAOAHAAD4HwAA" rel="icon" type="image/x-icon" />
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular-route.js"></script>
-  <script type="text/javascript" src="//maps.googleapis.com/maps/api/js?key=AIzaSyCd4yYuac4ot0nIp49HE9f_Sxy-tVKrD4I&sensor=false&extension=.js&libraries=places">
-  </script>
-  <script src="js/ng-map.min.js"></script>
-
 
 </head>
 
-<body ng-controller="MainController as MC">
+<body ng-controller="MainController">
 
   <header class="main_h">
+
       <div class="row">
           <a class="logo" href="#/">ROOTLESS</a>
 
@@ -47,14 +45,18 @@
                   <li><a href="#/apps">Apps</a></li>
               </ul>
           </nav>
+
       </div>
+
   </header>
+
+
+
 
 
   <div ng-view autoscroll="true">
   </div>
 
-<script src="./js/app.js"></script>
   <script>
 
 // Sticky Header
@@ -97,6 +99,7 @@ $('nav a').click(function(event) {
 
 
   </script>
+  <script src="./js/app.js"></script>
   <script src="./js/controllers.js"></script>
   <script src="./js/directives.js"></script>
   <script src="./js/services.js"></script>
