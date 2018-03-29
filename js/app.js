@@ -1,2 +1,1 @@
-angular.module("app", ['ngRoute','ngMap'])
-angular.module('ng').filter('tel', function (){});
+angular.module("app", ['ngRoute'])
